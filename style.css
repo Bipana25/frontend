@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:bisque ;
+}
+.red{
+    color:indigo;
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    text-align: right;
+    float: right;
+    padding-left: 0px;
+    color:black;
+}
+.navbar a{
+    color:black;
+    gap:30px;
+    font-size:40px;
+    padding-right:2%;
+    text-align:none;
+    background-color:peachpuff;
+
+}
+.navbar{
+    text-align: left;
+    font-size: 20px;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 100%;
+}
+
+h1{
+    text-align:center ;
+    color: indianred;
+}
+footer{
+    text-align: center;
+    gap: 20px;
+    color: aqua;
+    background-color:cornflowerblue;
+}
+.home{
+    display: flex;
+    padding-left: 30px;
+}
+.picture{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding: 12%;
+    
+}
+.image{
+    padding-top: 35px;
+    gap: 12px;
+}
+.card{
+    color:black;
+}
+.content{
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.intro{
+    text-align: center;
+}
+
+
+
+
+
