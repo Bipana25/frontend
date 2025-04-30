@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hellow this is javascript!!</h1>
+    <button type="button" onclick="viewdate()">Hello</button>
+    <p id="demo"></p>
+
+    <button  ondblclick="changetext()">Click here</button>
+    <p id="demo1">hello</p>
+    
+    <script>
+        const user="Bipana";
+        function changetext(){
+            document.getElementById("demo1").innerHTML="today i am doing the ";
+        }
+        function viewdate(){
+            document.getElementById("demo").innerHTML= "hi"+ user + ",today is"+ Date();
+        }
+    </script>
+</body>
+</html>

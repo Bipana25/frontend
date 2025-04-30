@@ -14,19 +14,34 @@ body{
     padding-left: 0px;
     color:black;
 }
-.navbar a{
-    color:black;
-    gap:30px;
-    font-size:40px;
-    padding-right:2%;
-    text-align:none;
-    background-color:peachpuff;
 
-}
 .navbar{
+    background-color:antiquewhite;
     text-align: left;
     font-size: 20px;
+    padding: 10px;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
 }
+.navbar a:hover{
+    color:indianred;
+    float: left;
+}
+@media(max-width:473px){
+    .hamburger{
+        display: flex;
+    }
+    .navbar ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        top:60px;
+        right: 15px;
+    }
+}
+
 .form{
     width: 400px;
     margin: auto;
@@ -44,8 +59,8 @@ h1{
 footer{
     text-align: center;
     gap: 20px;
-    color: aqua;
-    background-color:cornflowerblue;
+    color:white;
+    background-color:#2c3e50;
 }
 .home{
     display: flex;
@@ -53,10 +68,11 @@ footer{
 }
 .picture{
     display: flex;
-    gap: 20px;
-    text-align: center;
+    gap: 80px;
+    justify-content: center;
     padding: 12%;
-    
+    flex-wrap: wrap;
+    margin: 12px;
 }
 .image{
     padding-top: 35px;
@@ -64,6 +80,14 @@ footer{
 }
 .card{
     color:black;
+    width: 280px;
+    object-fit: cover;
+    border: 4px;
+}
+.card img{
+    width: 120%;
+    height: 80%;
+    justify-content: center;
 }
 .content{
     margin-left: 20px;
@@ -73,8 +97,25 @@ footer{
 .intro{
     text-align: center;
 }
+.button{
+    background-color:lightblue;
+}
+.hamburger{
+    flex-direction: column;
+    gap: 5px;
+    display: none;
 
+}
+.hamburger span{
+    height:3px;
+    width: 25px;
+    background-color: aquamarine;
+}
+.card img:hover{
 
-
-
-
+   
+}
+.card p{
+    height: 500;
+    width: 300;
+}
