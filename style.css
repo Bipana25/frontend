@@ -14,15 +14,23 @@ body{
     padding-left: 0px;
     color:black;
 }
-
 .navbar{
     background-color:antiquewhite;
     text-align: left;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 20px;
+    
+}
+.nav-links{
+    list-style: none;
     display: flex;
-    margin: 0%;
-    padding: 0%;
+    gap:20px;
+
+}
+.nav-links .active{
+    text-decoration: none;
+    color:aliceblue;
+    display: flex;
 }
 .navbar a:hover{
     color:indianred;
@@ -39,6 +47,8 @@ body{
         background-color: white;
         top:60px;
         right: 15px;
+        width: 200px;
+        padding: 20px;
     }
 }
 
@@ -100,10 +110,12 @@ footer{
 .button{
     background-color:lightblue;
 }
+
 .hamburger{
     flex-direction: column;
     gap: 5px;
     display: none;
+    cursor: pointer;
 
 }
 .hamburger span{
@@ -112,10 +124,28 @@ footer{
     background-color: aquamarine;
 }
 .card img:hover{
+    cursor: pointer;
+    border-radius: 100%;
 
-   
+
 }
 .card p{
     height: 500;
     width: 300;
+}
+ul{
+    display: flex; 
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+.navbar a{
+    display: flex;
+    font-size: 20px;  
+    text-align: none;
+    text-decoration: none; 
 }
