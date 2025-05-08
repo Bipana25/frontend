@@ -15,7 +15,7 @@ body{
     color:black;
 }
 .navbar{
-    background-color:antiquewhite;
+    background-color:aliceblue;
     text-align: left;
     font-size: 20px;
     padding: 10px 20px;
@@ -148,4 +148,10 @@ ul{
     font-size: 20px;  
     text-align: none;
     text-decoration: none; 
+}
+.project image{
+    display: flex;
+    gap:20px;
+    height: 40px;
+    width: 50px;
 }
