@@ -76,28 +76,22 @@ footer{
     display: flex;
     padding-left: 30px;
 }
-.picture{
+
+.project-layout{
     display: flex;
-    gap: 80px;
-    justify-content: center;
-    padding: 12%;
-    flex-wrap: wrap;
-    margin: 12px;
-}
-.image{
-    padding-top: 35px;
-    gap: 12px;
-}
-.card{
-    color:black;
-    width: 280px;
+     gap: 20px;
     object-fit: cover;
-    border: 4px;
-}
-.card img{
-    width: 120%;
-    height: 80%;
+    border-radius: 10px;
     justify-content: center;
+    
+}
+
+.card img{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    border: #2c3e50;
+
 }
 .content{
     margin-left: 20px;
@@ -110,7 +104,6 @@ footer{
 .button{
     background-color:lightblue;
 }
-
 .hamburger{
     flex-direction: column;
     gap: 5px;
@@ -126,13 +119,8 @@ footer{
 .card img:hover{
     cursor: pointer;
     border-radius: 100%;
-
-
 }
-.card p{
-    height: 500;
-    width: 300;
-}
+
 ul{
     display: flex; 
 }
@@ -148,10 +136,4 @@ ul{
     font-size: 20px;  
     text-align: none;
     text-decoration: none; 
-}
-.project image{
-    display: flex;
-    gap:20px;
-    height: 40px;
-    width: 50px;
 }
