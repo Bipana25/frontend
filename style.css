@@ -79,7 +79,7 @@ footer{
 
 .project-layout{
     display: flex;
-     gap: 20px;
+     gap: 10px;
     object-fit: cover;
     border-radius: 10px;
     justify-content: center;
@@ -136,4 +136,27 @@ ul{
     font-size: 20px;  
     text-align: none;
     text-decoration: none; 
+}
+.view{
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    gap: 10px;
+    border-radius: 10%;
+}
+.enter{
+    background-color: aqua;
+}
+.border1{
+    border-radius: 20px 50px 35px 5px;
+}
+.border2{
+    border:2px solid black;
+    padding: 10px;
+    width: 200px;
+}
+.border3{
+    border-radius: 2px sol
+    
 }
