@@ -1,0 +1,17 @@
+
+.Calculator{
+    text-align: center;
+    border: 2px solid black;
+    box-shadow:10px 0 100ox rgb(188, 0, 0,0.25);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: dashed;
+
+}
+.button{
+    background-color:burlywood;
+}
+.body{
+    background-color:aqua;
+}
+
