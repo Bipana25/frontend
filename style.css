@@ -85,13 +85,21 @@ footer{
     justify-content: center;
     
 }
+.card{
+    gap: 15px;
+    text-align: center;
+     border: 2px solid black;
+    padding: 10px;
+    background-color:aliceblue;
+}
+.rabbit{
+    
+    text-align: center;
+}
 
 .card img{
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    border: #2c3e50;
-
+    height: 200px;
+    width: 200px;
 }
 .content{
     margin-left: 20px;
@@ -166,4 +174,8 @@ ul{
     width: 200px;
     background-color: antiquewhite;
 }
+.image{
+    
+}
+ 
 
